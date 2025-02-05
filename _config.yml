@@ -19,14 +19,17 @@ latex:
 bibtex_bibfiles:
   - references.bib
 
-launch-buttons:
-  notebook_interface: "jupyterlab" #or classic, jupyterlab
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
+  url: https://github.com/gensereskild/JupyterBook-Test  # Online location of your book
+  path_to_book: book # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
+
+launch-buttons:
+  binderhub_url: "https://mybinder.org" #Test URL for binderhub
+  #binderhub_url: https://hub.2i2c.mybinder.org/user/gensereskild-jupyterbook-test-wewi0qfu/lab #Test URL for binderhub
+  #notebook_interface: "jupyterlab" #or classic, jupyterlab
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
